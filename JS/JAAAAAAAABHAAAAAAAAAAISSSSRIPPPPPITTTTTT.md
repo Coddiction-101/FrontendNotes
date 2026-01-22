@@ -347,9 +347,10 @@ const obj = { [key]: "admin" };
 
 ---
 
+# ⚡ JavaScript One-Liner Doubt Solver (From Your Notes)
+
 ## 16. 🎯 Common Confusions & Interview Focus
 
-# ⚡ JavaScript One-Liner Doubt Solver (From Your Notes)
 
 - NaN is a number but never equal to itself
 - Use Number.isNaN() instead of isNaN()
