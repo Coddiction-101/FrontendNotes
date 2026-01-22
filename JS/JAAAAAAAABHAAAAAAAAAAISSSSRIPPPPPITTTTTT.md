@@ -349,12 +349,43 @@ const obj = { [key]: "admin" };
 
 ## 16. 🎯 Common Confusions & Interview Focus
 
-* `var` vs `let` vs `const`
-* Primitive vs reference
-* map vs forEach
-* splice vs slice
-* shallow vs deep copy
-* closure vs HOF
+# ⚡ JavaScript One-Liner Doubt Solver (From Your Notes)
+
+- NaN is a number but never equal to itself
+- Use Number.isNaN() instead of isNaN()
+- typeof null is "object" due to a legacy bug
+- undefined means not assigned, null means intentionally empty
+- var is function-scoped, not block-scoped
+- let/const live in the Temporal Dead Zone
+- Hoisting doesn’t move code, it allocates memory first
+- const blocks reassignment, not object mutation
+- Primitives copy values, objects copy references
+- [] == [] is false because references differ
+- == performs type coercion, === doesn’t
+- 0 == false is true, 0 === false is false
+- Empty arrays and objects are truthy
+- "" is falsy but " " is truthy
+- map() returns a new array, forEach() returns undefined
+- slice() doesn’t mutate, splice() mutates
+- reduce() can return any type
+- Functions are first-class values
+- Higher-order functions accept or return functions
+- Closures remember variables, not values
+- Arrow functions don’t have their own this
+- arguments doesn’t exist in arrow functions
+- Missing object properties return undefined
+- Spread creates a shallow copy
+- JSON deep copy removes functions and symbols
+- Optional chaining prevents runtime crashes
+- typeof NaN returns "number"
+- NaN !== NaN is always true
+- document.all is falsy but not false
+- Logical && returns the first falsy value
+- Logical || returns the first truthy value
+- Early returns reduce nested conditionals
+- for...in iterates keys, not values
+- Object.entries() gives key-value pairs
+- Functions without return return undefined
 
 ---
 
