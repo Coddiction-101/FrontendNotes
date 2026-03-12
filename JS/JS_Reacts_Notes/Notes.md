@@ -3985,10 +3985,4 @@ INTERVIEW KEY TOPICS
 
 ---
 
-*Notes maintained by: Your Name*
-*Last Updated: 2024*
-*Versions: ES2024 | React 18.x | React Router v6*
-
----
-
 **⭐ Star this repo if these notes helped you crack your interview!**
