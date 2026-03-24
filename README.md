@@ -27,9 +27,4 @@ Focused on core concepts, syntax, and best practices.
 ## 🚀 Usage
 
 Browse topic-wise notes inside the repository.
-
----
-
-## 📄 License
-
-For educational use.
+ 
